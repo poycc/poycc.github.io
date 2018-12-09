@@ -4,7 +4,7 @@ git commit -m $1
 git push github source:source
 git push gitee source:source
 
-cd pulic
+cd /Users/andy/Documents/code/rblog/public
 git add .
 git commit -m $1
 git push github master:master
