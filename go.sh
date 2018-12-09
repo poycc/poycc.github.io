@@ -1,12 +1,11 @@
-git add public  && git commit -m $1
-git subtree push --prefix public github master
-git subtree push --prefix public gitee master
-
-
-
-
-git add . -n /public
+# 在source分支下将除public文件夹外的所有文件推送到source分支
+git add .
 git commit -m $1
+git push github source:source
+git push gitee source:source
 
-git subtree push --prefix github source  
-git subtree push --prefix gitee source  
+cd pulic
+git add .
+git commit -m $1
+git push github master:master
+git push gitee master:master

@@ -55,7 +55,3 @@ params:
   author:
     en: "Endi Zhu"
     cn: "朱恩迪"
-
-blackfriday:
-    extensionsmask: ["noIntraEmphasis"]
-    fractions: false
