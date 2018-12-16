@@ -37,12 +37,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 60px 0 30px;
   line-height: 1.25;
-  text-align: center;
 }
 
 h1 {
   font-size: 32px;
   font-weight: normal;
+  text-align: center;
 }
 
 h2 {
@@ -150,7 +150,7 @@ hr {
 /* Layout */
 
 body {
-  /* width: 960px; */
+  width: 960px;
   margin: 0 auto;
   padding: 30px 0;
 }
@@ -162,7 +162,7 @@ body {
 }
 
 .main {
-  /* width: 700px; */
+  width: 700px;
   padding: 32px 10px 20px 50px;
   margin-left: 160px;
   border-left: 3px solid black;
