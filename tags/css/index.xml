@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on enddi</title>
+    <link>/tags/css/</link>
+    <description>Recent content in Css on enddi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>inline-block样式使用</title>
+      <link>/post/css/inline-block-md/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/css/inline-block-md/</guid>
+      <description>内容间隙问题 不同高度的对齐问题 在页面布局的过程中，我们经常会使用display: inline-block方法对目标内容的显示进行设置，在使用</description>
+    </item>
+    
+  </channel>
+</rss>

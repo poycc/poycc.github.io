@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>证明两条非垂直直线的斜率互为负倒数 - enddi</title>
+    <meta property="og:title" content="证明两条非垂直直线的斜率互为负倒数 - enddi">
+    
+    <meta name="twitter:card" content="summary">
+
+    
+      
+    
+
+    
+      
+      <meta property="description" content="当平面上一个质点从一个点移动到另一个点，终点坐标减去起点坐标就可以求出坐标的增量。
+假如一个质点从点(\(x_1,y_1\))移动到(\(x_2,y_2\))，那么这个点的坐标增量为：
+\[ \Delta x = x_2 - x_1 \]
+\[ \Delta y = y_2 - y_1 \]
+[&amp;hellip;] 每条不垂直的直线$L$都有一个斜率，每行进单位距离时高度的变化就是这条直线的斜率，如 &amp;hellip;">
+      <meta property="og:description" content="当平面上一个质点从一个点移动到另一个点，终点坐标减去起点坐标就可以求出坐标的增量。
+假如一个质点从点(\(x_1,y_1\))移动到(\(x_2,y_2\))，那么这个点的坐标增量为：
+\[ \Delta x = x_2 - x_1 \]
+\[ \Delta y = y_2 - y_1 \]
+[&amp;hellip;] 每条不垂直的直线$L$都有一个斜率，每行进单位距离时高度的变化就是这条直线的斜率，如 &amp;hellip;">
+      
+    
+
+    
+    
+    
+    <meta name="twitter:image" content="/images/logo.png">
+    
+    
+
+    
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<link rel="stylesheet" href="/css/custom.css" />
+
+  </head>
+
+  
+  <body class="post">
+    <header class="masthead">
+      
+
+<h1><a href="/"><img src="/images/logo.jpg" alt="enddi" /></a></h1>
+
+
+
+      <nav class="menu">
+  <ul>
+  
+  
+  <li><a href="/">首页</a></li>
+  
+  <li><a href="/categories/">分类</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  <li><a href="/about/">关于</a></li>
+  
+  <li><a href="https://github.com/z2x">GitHub</a></li>
+  
+  
+  </ul>
+</nav>
+
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>证明两条非垂直直线的斜率互为负倒数</h1>
+
+
+<h3>
+2018-12-14</h3>
+
+<hr>
+
+
+      </header>
+
+
+
+
+
+
+<div id="section" class="section level1">
+<h1>基础知识</h1>
+<div id="section-1" class="section level2">
+<h2>相似三角形的判定定理：</h2>
+<ol style="list-style-type: decimal">
+<li><strong>AA</strong>：如果一个三角形的两个角与另一个三角形的两个角对应相等，这两个三角形相似；</li>
+<li><strong>SAS</strong>：如果两个三角形的两组对应边成比例，并且对应的夹角相等，这两个三角形相似；</li>
+<li><strong>SSS</strong>：如果两个三角形的三组对应边成比例，那么这两个三角形相似。</li>
+</ol>
+</div>
+<div id="section-2" class="section level2">
+<h2>增量</h2>
+<p>当平面上一个质点从一个点移动到另一个点，终点坐标减去起点坐标就可以求出坐标的增量。</p>
+<p>假如一个质点从点(<span class="math inline">\(x_1,y_1\)</span>)移动到(<span class="math inline">\(x_2,y_2\)</span>)，那么这个点的坐标增量为：</p>
+<p><span class="math display">\[ \Delta x = x_2 - x_1 \]</span></p>
+<p><span class="math display">\[ \Delta y = y_2 - y_1 \]</span></p>
+</div>
+<div id="section-3" class="section level2">
+<h2>直线的斜率</h2>
+<p>每条不垂直的直线<code>$L$</code>都有一个斜率，每行进单位距离时高度的变化就是这条直线的斜率，如下图所示：</p>
+<p><img src="/images/post/math/1.png" style="width:50.0%" /></p>
+<p>在上图中，</p>
+<p><span class="math inline">\(\Delta x = x_2 - x_1\)</span>，是从<span class="math inline">\(p_1\)</span>到<span class="math inline">\(p_2\)</span>的行进距离；</p>
+<p><span class="math inline">\(\Delta y = y_2 - y_1\)</span>，是从<span class="math inline">\(p_1\)</span>到<span class="math inline">\(p_2\)</span>的升高；</p>
+<p>那么直线<span class="math inline">\(L\)</span>的斜率为：</p>
+<p><span class="math display">\[ m = \frac{升高}{行进距离} = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1} \]</span></p>
+<p>当<span class="math inline">\(x\)</span>增加时上升的直线的斜率为正数；</p>
+<p>当<span class="math inline">\(x\)</span>增加时下降的直线的斜率为负数；</p>
+<p>水平线的直线的斜率为0；</p>
+<p>垂直的直线<span class="math inline">\(\Delta x = 0\)</span>，此时斜率无意义。</p>
+</div>
+<div id="section-4" class="section level2">
+<h2>证明两条非垂直直线的斜率互为负倒数</h2>
+<p><img src="/images/post/math/2.png" style="width:80.0%" /></p>
+<p>如上图所示，证明步骤如下：</p>
+<p><span class="math inline">\(\angle CAD +\angle ACD = 90^\circ\)</span></p>
+<p><span class="math inline">\(\angle ACD+\angle BCD = 90^\circ\)</span></p>
+<p>因此：<span class="math inline">\(\angle CAD = \angle BCD\)</span></p>
+<p>根据相似三角形的判定定理，可以得出<span class="math inline">\(\Delta ADC\)</span>和<span class="math inline">\(\Delta BCD\)</span>相似，所以：</p>
+<p><span class="math display">\[m_1 = tan \phi_1 = \frac{a}{h}\]</span></p>
+<p><span class="math display">\[m_2 = tan \phi_2 = - \frac{h}{a}\]</span></p>
+<p>因此：</p>
+<p><span class="math display">\[m_1m_2 = \left(\frac{a}{h}\right)\left(-\frac{h}{a}\right) = -1\]</span></p>
+<p>所以，两条非垂直直线的斜率互为负倒数。</p>
+</div>
+</div>
+
+
+  <footer>
+  
+<nav class="post-nav">
+  <span class="nav-prev">&larr; <a href="/post/css/inline-block-md/">inline-block样式使用</a></span>
+  <span class="nav-next"><a href="/post/machine-learning/machine-learning-1/">机器学习笔记-1（定义、监督学习、无监督学习）</a> &rarr;</span>
+</nav>
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  
+    
+    url = '\/post\/css\/inline-block-md\/';
+    
+  } else if (e.which == 39) {  
+    
+    url = '\/post\/machine-learning\/machine-learning-1\/';
+    
+  }
+  if (url) window.location = url;
+});
+</script>
+
+
+
+<section class="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+    this.page.url = "https:\/\/enddi.cn" + location.pathname;
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var disqus_js = '//enddi.disqus.com/embed.js';
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    var b = false, l = function() {
+      if (b) return;
+      (d.head || d.body).appendChild(s); b = true;
+    }
+    
+    if (location.hash.match(/^#comment/)) return(l());
+    var t = d.getElementById('disqus_thread');
+    var c = function() {
+      if (b) return;
+      var rect = t.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) l();
+    };
+    window.addEventListener('load', c);
+    d.addEventListener('scroll', c);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+
+<script async src="/js/fix-toc.js"></script>
+
+<script async src="/js/center-img.js"></script>
+
+<script async src="/js/right-quote.js"></script>
+
+<script async src="/js/no-highlight.js"></script>
+
+<script async src="/js/fix-footnote.js"></script>
+
+<script async src="/js/math-code.js"></script>
+
+<script async src="/js/external-link.js"></script>
+
+<script async src="/js/alt-title.js"></script>
+
+
+
+<script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+  
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="/">Endi Zhu</a> 20016 - 2018</div>
+  
+  </footer>
+  </article>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-92894937-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+</html>
+

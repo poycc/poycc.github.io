@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/post/machine-learning/machine-learning-1/</loc>
+    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/math/2018-12-14-%E8%AF%81%E6%98%8E%E4%B8%A4%E6%9D%A1%E9%9D%9E%E5%9E%82%E7%9B%B4%E7%9B%B4%E7%BA%BF%E7%9A%84%E6%96%9C%E7%8E%87%E4%BA%92%E4%B8%BA%E8%B4%9F%E5%80%92%E6%95%B0/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/css/inline-block-md/</loc>
+    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/javascript/redux-state-container-md/</loc>
+    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/css/</loc>
+    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/css/</loc>
+    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/javascript/</loc>
+    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/machine-learning/</loc>
+    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/math/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/math-basic/</loc>
+    <lastmod>2018-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/note/</loc>
+    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/redux/</loc>
+    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-10-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/1-example/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

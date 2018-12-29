@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redux on enddi</title>
+    <link>/tags/redux/</link>
+    <description>Recent content in Redux on enddi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 20 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/redux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用Redux进行状态管理</title>
+      <link>/post/javascript/redux-state-container-md/</link>
+      <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/javascript/redux-state-container-md/</guid>
+      <description>Redux是什么 Redux是一个专注于状态管理的库： Redux专注于状态管理，和React并不是强结合的关系，使用Vue和Angular都可</description>
+    </item>
+    
+  </channel>
+</rss>
