@@ -50,7 +50,7 @@ span {
 
 此时呈现出来的效果为：
 
-![](/post/css-imgs/inline-block-1.png)
+![](/images/post/css/inline-block-1.png)
 
 [⬆返回顶部](#top)
 
@@ -69,7 +69,7 @@ span {
 
 此时呈现出来的效果为：
 
-![](/post/css-imgs/inline-block-2.png)
+![](/images/post//inline-block-2.png)
 
 这时候我们就可以看到效果，两个内容之间的缝隙已经被去除了。
 
@@ -131,10 +131,10 @@ main :last-child {
 
 这时候会这样显示（添加了参考线）：
 
-![](/post/css-imgs/inline-block-align-1.png)
+![](/images/post/css/inline-block-align-1.png)
 
 如果需要进行对齐，那么可以在父元素上面直接使用`vertical-align`进行设置，比如给`span`标签样式添加`vertical-align: bottom;`那么将显示为：
 
-![](/post/css-imgs/inline-block-align-2.png)
+![](/images/post/css/inline-block-align-2.png)
 
 [⬆返回顶部](#top)
